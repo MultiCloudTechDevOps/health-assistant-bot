@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-healthassistantweb-dev-4ed5c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::877176937830:role/amplify-healthassistantweb-dev-4ed5c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::877176937830:role/amplify-healthassistantweb-dev-4ed5c-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-healthassistantweb-dev-4ed5c-deployment",
+      "UnauthRoleName": "amplify-healthassistantweb-dev-4ed5c-unauthRole",
+      "StackName": "amplify-healthassistantweb-dev-4ed5c",
+      "StackId": "arn:aws:cloudformation:us-east-1:877176937830:stack/amplify-healthassistantweb-dev-4ed5c/df6ce0c0-bd85-11f0-bf9d-0affd2545ccb",
+      "AmplifyAppId": "d36kep6f589kql"
+    }
+  },
+  "auth": {
+    "healthassistantweb23e5d826": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-1_ATOTfyd7W",
+        "AppClientIDWeb": "fnand9jb91c8cj79hkgj1j4im",
+        "AppClientID": "3doplfndk2cgphb19qn0aac77k",
+        "IdentityPoolId": "us-east-1:ca02ce3a-9dff-4537-bbe6-83a68cac0072",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:877176937830:userpool/us-east-1_ATOTfyd7W",
+        "IdentityPoolName": "healthassistantweb23e5d826_identitypool_23e5d826__dev",
+        "UserPoolName": "healthassistantweb23e5d826_userpool_23e5d826"
+      },
+      "lastPushTimeStamp": "2025-11-09T18:04:20.442Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-healthassistantweb-dev-4ed5c-deployment/amplify-cfn-templates/auth/healthassistantweb23e5d826-cloudformation-template.json",
+        "logicalId": "authhealthassistantweb23e5d826"
+      }
+    }
+  }
+}

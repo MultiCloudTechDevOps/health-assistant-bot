@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-healthassistantweb-dev-4ed5c-authRole",
+      "UnauthRoleArn": "arn:aws:iam::877176937830:role/amplify-healthassistantweb-dev-4ed5c-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::877176937830:role/amplify-healthassistantweb-dev-4ed5c-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-healthassistantweb-dev-4ed5c-deployment",
+      "UnauthRoleName": "amplify-healthassistantweb-dev-4ed5c-unauthRole",
+      "StackName": "amplify-healthassistantweb-dev-4ed5c",
+      "StackId": "arn:aws:cloudformation:us-east-1:877176937830:stack/amplify-healthassistantweb-dev-4ed5c/df6ce0c0-bd85-11f0-bf9d-0affd2545ccb",
+      "AmplifyAppId": "d36kep6f589kql"
+    },
+    "categories": {
+      "auth": {
+        "healthassistantweb23e5d826": {}
+      }
+    }
+  }
+}
