@@ -1,15 +1,9 @@
 version: 1
-backend:
-  phases:
-    build:
-      commands:
-        - cd ./ # ensure we’re in project root
-        - amplifyPull --appId d36kep6f589kql --envName dev
 frontend:
   phases:
     preBuild:
       commands:
-        - npm install --legacy-peer-deps
+        - npm ci || npm install --legacy-peer-deps
     build:
       commands:
         - npm run build
@@ -20,4 +14,3 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
-
